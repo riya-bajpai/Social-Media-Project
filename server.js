@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const connectToDatabase = require("./config/connectToDataBase");
+const connectToDatabase = require("./config/connectToDatabase");
 const cors = require("cors");
 const path = require("path");
 
